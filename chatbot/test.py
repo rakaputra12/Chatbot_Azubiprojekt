@@ -1,19 +1,14 @@
-import tkinter as tk
+import random
 
-window = tk.Tk()
+jokes = ["Yo my Menn das ist Me!"]
+number = random.randrange(0,3)
+
+
+import tkinter 
+
+window = tkinter.Tk()
 y = 0
 
-def sayHi():
-    global y
-    y += 1
-    print(y)
-
-window.geometry("200x100")
-b = tk.Button(
-    window,
-    text='click here',
-    command=sayHi
-)
-
-b.pack()
+window.geometry("700x200")
+tkinter.Label(window, text=jokes[number], font="Helvetica 16 bold").pack()
 window.mainloop()
