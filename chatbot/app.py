@@ -8,6 +8,7 @@ TEXT_COLOR = "#EAECEE"
 FONT = "Helvetica 14"
 FONT_BOLD = "Helvetica 13 bold"
 
+
 class ChatApplication:
     
     def __init__(self):
@@ -18,13 +19,13 @@ class ChatApplication:
         self.window.mainloop()
         
     def _setup_main_window(self):
-        self.window.title("Chat")
+        self.window.title("Chatbot")
         self.window.resizable(width=False, height=False)
         self.window.configure(width=470, height=550, bg=BG_COLOR)
         
         # head label
         head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOR,
-                           text="Welcome", font=FONT_BOLD, pady=10)
+                           text="Willkomen auf Escape Room von Komm.ONE!", font=FONT_BOLD, pady=10)
         head_label.place(relwidth=1)
         
         # tiny divider
@@ -48,18 +49,18 @@ class ChatApplication:
         
         # message entry box
         self.msg_entry = Entry(bottom_label, bg="#2C3E50", fg=TEXT_COLOR, font=FONT)
-        self.msg_entry.place(relwidth=0.74, relheight=0.06, rely=0.008, relx=0.011)
+        self.msg_entry.place(relwidth=0.974, relheight=0.06, rely=0.008, relx=0.011)
         self.msg_entry.focus()
         self.msg_entry.bind("<Return>", self._on_enter_pressed)
         
         # send button
-        send_button = Button(bottom_label, text="Send", font=FONT_BOLD, width=20, bg=BG_GRAY,
+        '''send_button = Button(bottom_label, text="Schicken", font=FONT_BOLD, width=20, bg=BG_GRAY,
                              command=lambda: self._on_enter_pressed(None))
-        send_button.place(relx=0.77, rely=0.008, relheight=0.06, relwidth=0.22)
+        send_button.place(relx=0.77, rely=0.008, relheight=0.06, relwidth=0.22)'''
      
     def _on_enter_pressed(self, event):
         msg = self.msg_entry.get()
-        self._insert_message(msg, "You")
+        self._insert_message(msg, "Sie")
         
     def _insert_message(self, msg, sender):
         if not msg:
