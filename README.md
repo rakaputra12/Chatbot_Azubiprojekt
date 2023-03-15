@@ -21,3 +21,4 @@ Die betreffende Person : Raka und Florian
 
 ## Umsetzung
 
+- Wie kann man eine .py Datei auf .exe umwandeln? siehe datei "setup.py"
