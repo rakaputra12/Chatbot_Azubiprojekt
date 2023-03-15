@@ -1,5 +1,7 @@
 # Chatbot_Azubiprojekt
 
+die betreffende Person : Raka und Florian
+
 ## Vorbereitung
 
 - Entscheidung, auf welchem Repository wir arbeiten wollen
