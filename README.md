@@ -1,6 +1,6 @@
 # Chatbot_Azubiprojekt
 
-die betreffende Person : Raka und Florian
+Die betreffende Person : Raka und Florian
 
 ## Vorbereitung
 
