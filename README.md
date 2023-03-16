@@ -21,7 +21,6 @@ Die betreffende Person : Raka und Florian
     Text            --> schon cool, aber wir müssen dann den Text von Challenges brauchen, um die Wahrscheinlichkeit zu prüfen
     Schlüsselwörter --> gut aber viel Aufwand
 
-/Users/Rakaadita/Downloads/Test/Temp/Chatbot_Azubiprojekt /chatbot
 ## Anforderungen
 
 - muss die zuständige Person oder Gruppe von Challenges fragen
