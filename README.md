@@ -10,7 +10,7 @@ Die betreffende Person : Raka und Florian
 
 - Wie wird Chatbot gestalten bzw. Webanwendung oder Applikation oder wie? (APP bzw.Popup Fenster?)
 
-![My Image](/Users/Rakaadita/Downloads/Test/Temp/Chatbot_Azubiprojekt/APP.png)
+![Alt text](/Users/Rakaadita/Downloads/Test/Temp/Chatbot_Azubiprojekt/APP.png "Optional title")
 
 - Wie werden die Datasets unterteilt werden --> Container oder offenen Ort?? 
 
