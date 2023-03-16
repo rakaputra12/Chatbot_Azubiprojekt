@@ -10,7 +10,7 @@ Die betreffende Person : Raka und Florian
 
 - Wie wird Chatbot gestalten bzw. Webanwendung oder Applikation oder wie? (APP bzw.Popup Fenster?)
 
-![My Image](../chatbot/APP.png)
+![](chatbot/APP.png)
 
 - Wie werden die Datasets unterteilt werden --> Container oder offenen Ort?? 
 
