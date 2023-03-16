@@ -1,8 +1,8 @@
 from tkinter import *
 from chat import get_response, bot_name
 
-BG_GRAY = "#ABB2B9"
-BG_COLOR = "#17202A"
+BG_GRAY = "#07343b"
+BG_COLOR = "#003940"
 TEXT_COLOR = "#EAECEE"
 
 FONT = "Helvetica 14"
@@ -22,7 +22,7 @@ class ChatApplication:
         self.window.title("Chatbot")
         self.window.resizable(width=False, height=False)
         self.window.configure(width=470, height=550, bg=BG_COLOR)
-        
+
         # head label
         head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOR,
                            text="Willkomen auf Escape Room von Komm.ONE!", font=FONT_BOLD, pady=10)
@@ -48,7 +48,7 @@ class ChatApplication:
         bottom_label.place(relwidth=1, rely=0.825)
         
         # message entry box
-        self.msg_entry = Entry(bottom_label, bg="#2C3E50", fg=TEXT_COLOR, font=FONT)
+        self.msg_entry = Entry(bottom_label, bg="#003940", fg=TEXT_COLOR, font=FONT)
         self.msg_entry.place(relwidth=0.974, relheight=0.06, rely=0.008, relx=0.011)
         self.msg_entry.focus()
         self.msg_entry.bind("<Return>", self._on_enter_pressed)
